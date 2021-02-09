@@ -1,4 +1,4 @@
-:root{
+    :root{
   --color1: rgb(219,144,.5);
   --color2: rgba(23, 180, 83, 0.877);
   --color3: rgba(11,194,211, 0.623);
@@ -88,12 +88,12 @@ img{
 
 header{
   width: 100%;
-  height:600px;
+  height:750px;
   background: linear-gradient(to bottom,
   rgba(211,135,20, .6),
   rgba(29,241,171, .6),
   rgba(7,109,150, .45)
-  ), url(img/fondo.jpg);
+  ), url(img/fondo.png);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -154,7 +154,7 @@ nav .enlaces a:hover{
 
 .textos{
   width: 100%;
-  height: 100%;
+  height: 70%;
   display:flex;
   justify-content: center;
   flex-direction: column;
@@ -164,7 +164,10 @@ nav .enlaces a:hover{
   text-align: center;
 }
 
-.textos>h1{font-size:80px;;}
+.textos>h1{
+  font-size:80px;
+  font-family: 'Roboto', sans-serif;
+}
 
 .textos>h2{font-size: 30px; font-weight: 300;}
 
